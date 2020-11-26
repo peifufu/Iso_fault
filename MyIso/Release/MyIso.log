@@ -1,0 +1,335 @@
+﻿生成启动时间为 2020/10/14 10:17:47。
+     1>项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>正在使用工具版本“14.0”进行生成。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(入口点):
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Message”任务。
+       任务“Message”
+         Configuration=Release
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=Win32
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('G:\project_new\c++\Iso_Jie\MyIso\Release\' != '' and !HasTrailingSlash('G:\project_new\c++\Iso_Jie\MyIso\Release\'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('Release\' != '' and !HasTrailingSlash('Release\'))。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets”中的目标“_PrepareForRebuild”(目标“Rebuild”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_PrepareForRebuild”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeRebuild”(目标“Rebuild”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BeforeRebuild”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets”中的目标“_PrepareForClean”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“Delete”；(Exists($(LastBuildState)))计算为(Exists(Release\MyIso.tlog\MyIso.lastbuildstate))。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_PrepareForClean”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeClean”(目标“Clean”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BeforeClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“UnmanagedUnregistration”；((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)'))的计算结果为((('' != '' or '' != 'true' or 'exe' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\MyIso.vcxproj.UnmanagedRegistration.cache'))。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“CoreClean”(目标“Clean”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Delete”任务。
+       任务“Delete”
+         文件“Release\\TempCA\MyIso.pdb”不存在。正在跳过。
+         文件“Release\\TempCA\MyIso.exe”不存在。正在跳过。
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ReadLinesFromFile”任务。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“FindUnderPath”任务。
+       任务“FindUnderPath”
+         比较路径为“G:\project_new\c++\Iso_Jie\MyIso\Release\”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“FindUnderPath”
+         比较路径为“Release\”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“RemoveDuplicates”任务。
+       任务“RemoveDuplicates”
+       已完成执行任务“RemoveDuplicates”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MakeDir”任务。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“WriteLinesToFile”任务。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“CoreClean”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“AssignProjectConfiguration”(目标“CleanReferencedProjects”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignProjectConfiguration”任务。
+       任务“AssignProjectConfiguration”
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“CleanReferencedProjects”依赖于它):
+       由于 false 条件，已跳过任务“ResolveNonMSBuildProjectOutput”；('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')计算为('true'=='true' and ''!='')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“CleanReferencedProjects”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('true' != 'true' and 'true' == 'true' and '' != '')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“CleanReferencedProjects”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“CleanPublishFolder”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“RemoveDir”；('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)'))计算为('G:\project_new\c++\Iso_Jie\MyIso\Release\app.publish\'=='G:\project_new\c++\Iso_Jie\MyIso\Release\app.publish\' and Exists('G:\project_new\c++\Iso_Jie\MyIso\Release\app.publish\'))。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“CleanPublishFolder”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“AfterClean”(目标“Clean”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“AfterClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“EntityClean”；('@(EntityDeploy)' != '')的计算结果为('' != '')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets”中的目标“BeforeCppClean”(目标“CppClean”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BeforeCppClean”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets”中的目标“CoreCppClean”(目标“CppClean”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Build.CppTasks.Common.dll”中的“CppClean”任务。
+       任务“CppClean”
+       已完成执行任务“CppClean”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“CoreCppClean”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets”中的目标“AfterCppClean”(目标“CppClean”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“AfterCppClean”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets”中的目标“PGInstrumentedClean”(目标“CppClean”依赖于它):
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“PGInstrumentedClean”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets”中的目标“CppClean”(目标“Clean”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“CppClean”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“Clean”(目标“Rebuild”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“Clean”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets”中的目标“_PrepareForBuild”(目标“Build”依赖于它):
+       由于 false 条件，已跳过任务“CreateItem”；('%(CustomBuild.IncludeFileToTool)'!='')计算为(''!='')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_PrepareForBuild”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“_PrepareForReferenceResolution”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_PrepareForReferenceResolution”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('Jie_Ds.cpp;main.cpp;Vec_nD.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BeforeResolveReferences”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“_RemoveNameMetadataFromProjectReferenceItems”；('@(ProjectReference)'!='')的计算结果为(''!='')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveProjectReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '14.0' != '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '14.0' == '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Warning”；('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')计算为('' != '' and '' != '')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ResolveProjectReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“FindInvalidProjectReferences”；('$(FindInvalidProjectReferences)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveNativeReferences”；('@(NativeReference)'!='')的计算结果为(''!='')。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets”中的目标“GetFrameworkPaths”(目标“ResolveAssemblyReferences”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“GetFrameworkPaths”的操作。
+       由于条件的计算结果为 false，已跳过目标“GetWinFXPath”；(('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' ))的计算结果为(('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetReferenceAssemblyPaths”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetReferenceAssemblyPaths”；('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))计算为('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“GetReferenceAssemblyPaths”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Current.targets”中的目标“SetBuildDefaultEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Build.CppTasks.Common.dll”中的“SetEnv”任务。
+       任务“SetEnv”
+         PATH=D:\vs2015\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;D:\vs2015\Common7\tools;D:\vs2015\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\14.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;D:\Oracle19gx64\product\19.5.0_64bit\instantclient_19_5;D:\Oracle12g\product\12.2.0_32bit\instantclient_12_2;G:\app\Administrator\product\11.2.0\client_2\bin;D:\ProgramData\Anaconda3;D:\ProgramData\Anaconda3\Library\mingw-w64\bin;D:\ProgramData\Anaconda3\Library\usr\bin;D:\ProgramData\Anaconda3\Library\bin;D:\ProgramData\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Users\Administrator.DESKTOP-VOQSA0G\Desktop\宋智琛\普光智能油气田\Formula_Puguang\Puguang_formulas(1);C:\Users\Administrator.DESKTOP-VOQSA0G\Desktop\04-RESI\5-源码与部署包\1-源码\RESI_formulas;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\SourceGear\Common\DiffMerge\;D:\cmake\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Administrator.DESKTOP-VOQSA0G\AppData\Local\Enthought\Canopy32\edm\envs\User;C:\Users\Administrator.DESKTOP-VOQSA0G\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\JetBrains\PyCharm 2020.1.1\bin;;
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIB=D:\vs2015\VC\lib;;D:\vs2015\VC\atlmfc\lib;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.10240.0\ucrt\x86;;;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIBPATH=D:\vs2015\VC\atlmfc\lib;;D:\vs2015\VC\lib;
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         INCLUDE=D:\vs2015\VC\include;;D:\vs2015\VC\atlmfc\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt;;;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“SetBuildDefaultEnvironmentVariables”的操作。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')的计算结果为('' != '' and '' != 'true')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“GetResolvedWinMD”(目标“PrepareForBuild”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“GetResolvedWinMD”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets”中的目标“PlatformPrepareForBuild”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(_Error64bitToolsNotInstalled)' == 'true')计算为('' == 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110')计算为(''!='true' and 'true' != 'true' and 'v140' == 'v110')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100')计算为(''!='true' and 'true' != 'true' and 'v140' == 'v100')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90')计算为(''!='true' and 'true' != 'true' and 'v140' == 'v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110')计算为(''!='true' and 'true' != 'true' and 'v140' != 'v90' and 'v140' != 'v100' and 'v140' != 'v110')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“PlatformPrepareForBuild”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Win32\PlatformToolsets\v140\Toolset.targets”中的目标“Desktop_PlatformPrepareForBuild”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；($(MissingSDKProps) == 'true')计算为( == 'true')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“Desktop_PlatformPrepareForBuild”的操作。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+       已跳过目标“GetReferenceAssemblyPaths”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“AssignLinkMetadata”；( '$(SynthesizeLinkMetadata)' == 'true' )的计算结果为( '' == 'true' )。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\CodeAnalysis\Microsoft.CodeAnalysis.targets”中的目标“SetCABuildNativeEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       正在从程序集“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Build.Tasks.Core.dll”初始化任务工厂“CodeTaskFactory”。
+       正在使用来自任务工厂“Code Task Factory”的“SetEnvironmentVariable”任务。
+       任务“SetEnvironmentVariable”
+       已完成执行任务“SetEnvironmentVariable”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“SetCABuildNativeEnvironmentVariables”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“PrepareForBuild”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true')计算为('' != 'true' and 'true' != 'true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary')计算为(''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' ))计算为(''!='true' and 'D:\vs2015\VC\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' ))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90')计算为(''!='true' and 'D:\vs2015\VC\'=='' and '' != 'true' and 'v140'=='v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true')计算为('D:\vs2015\VC\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true')计算为('C:\Program Files (x86)\Windows Kits\8.1\'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IntDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(OutDirTrailingSlashWarning)'=='true')计算为(''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true')计算为('' != '' and ''!='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(_MBCS_Using)' == 'true' and '$(_MBCS_Installed)' != 'true' and '$(DesignTimeBuild)' != 'true')计算为('' == 'true' and '' != 'true' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true')计算为('' != 'true' and '' == 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true'))计算为('' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true'))。
+       任务“MakeDir”
+         正在创建目录“G:\project_new\c++\Iso_Jie\MyIso\Release\”。
+         正在创建目录“Release\MyIso.tlog\”。
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“PrepareForBuild”的操作。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('Jie_Ds.cpp;main.cpp;Vec_nD.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetInstalledSDKLocations”(目标“ResolveSDKReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetInstalledSDKLocations”；('@(SDKReference)' != '')计算为('' != '')。
+       由于 false 条件，已跳过任务“GetInstalledSDKLocations”；('@(SDKReference)' != '' and '$(SupportWindows81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindows81)' != '' and '$(TargetPlatformVersionWindows81)' != '')计算为('' != '' and '' == 'true' and '' != '' and '' != '')。
+       由于 false 条件，已跳过任务“GetInstalledSDKLocations”；('@(SDKReference)' != '' and '$(SupportWindowsPhone81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindowsPhone81)' != '' and '$(TargetPlatformVersionWindowsPhone81)' != '')计算为('' != '' and '' == 'true' and '' != '' and '' != '')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“GetInstalledSDKLocations”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportBefore\Windows.8.1.UT_SDKReference.props”中的目标“ModifyUnitTestPlatformVersion”(目标“ResolveSDKReferences”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ModifyUnitTestPlatformVersion”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ResolveSDKReferences”的操作。
+       已跳过目标“ResolveSDKReferences”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“ExpandSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetSDKReferenceFiles”；('@(ResolvedSDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ExpandSDKReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveNuGetPackageAssets”；('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)'))的计算结果为('true' == 'true' and exists('project.lock.json'))。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveAssemblyReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveAssemblyReference”；('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '')计算为(''!='' or ''!='' or '' != '')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ResolveAssemblyReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateBindingRedirects”；('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true')的计算结果为('' == 'true' and 'true' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“GenerateBindingRedirectsUpdateAppConfig”；('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)'))的计算结果为('' == 'true' and 'true' == 'true' and Exists('Release\MyIso.vcxproj.MyIso.exe.config'))。
+       由于条件的计算结果为 false，已跳过目标“ResolveComReferences”；('@(COMReference)'!='' or '@(COMFileReference)'!='')的计算结果为(''!='' or ''!='')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“AfterResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“AfterResolveReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ImplicitlyExpandDesignTimeFacades”；('$(ImplicitlyExpandDesignTimeFacades)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveTestReferences”；('@(Shadow)'!='')的计算结果为(''!='')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveReferences”(目标“Build”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ResolveReferences”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“InitializeBuildStatus”(目标“Build”依赖于它):
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Touch”任务。
+       任务“Touch”
+         正在创建“Release\MyIso.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“InitializeBuildStatus”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildGenerateSourcesTraverse”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BuildGenerateSourcesTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets”中的目标“BeforeBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BeforeBuildGenerateSources”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets”中的目标“PreBuildEvent”(目标“_BuildGenerateSourcesAction”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '')计算为('' != '' and '' != '')。
+       由于 false 条件，已跳过任务“Exec”；('%(PreBuildEvent.Command)' != '')计算为('' != '')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“PreBuildEvent”的操作。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxExport”；('@(FxCompile)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxCompile”；('@(FxCompile)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“Xsd”；('@(Xsd)' != '')的计算结果为('' != '')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“_Xsd”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_Xsd”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“MakeDirsForMidl”(目标“_Midl”依赖于它):
+       任务“Makedir”
+       已完成执行任务“Makedir”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“MakeDirsForMidl”的操作。
+       由于条件的计算结果为 false，已跳过目标“Midl”；('@(Midl)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“CustomBuild”；('@(CustomBuild)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxExport”；('@(FxCompile)' != '')的计算结果为('' != '')。
+       由于条件的计算结果为 false，已跳过目标“FxCompile”；('@(FxCompile)' != '')的计算结果为('' != '')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“ComputeMIDLGeneratedCompileInputs”(目标“_Midl”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ComputeMIDLGeneratedCompileInputs”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“AfterMidl”(目标“_Midl”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“AfterMidl”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“_Midl”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_Midl”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets”中的目标“AfterBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“AfterBuildGenerateSources”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“AfterBuildGenerateSourcesEvent”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“AfterBuildGenerateSourcesEvent”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“_BuildGenerateSourcesAction”(目标“BuildGenerateSources”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_BuildGenerateSourcesAction”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildGenerateSources”(目标“Build”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BuildGenerateSources”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“_SplitProjectReferencesByFileExistence”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildCompileTraverse”(目标“BuildCompile”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != ''  and '' == 'true')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BuildCompileTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“BeforeClCompile”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“BeforeClCompile”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“ComputeCLInputPDBName”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ComputeCLInputPDBName”的操作。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“ComputeReferenceCLInput”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“WriteLinesToFile”；(('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true')计算为((''!='') and '' != 'true')。
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ComputeReferenceCLInput”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“WarnCompileDuplicatedFilename”(目标“_ClCompile”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'Jie_Ds.cpp' != 'Jie_Ds.cpp' and 'Release\' == 'Release\')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'main.cpp' != 'main.cpp' and 'Release\' == 'Release\')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')计算为('' != 'true' and 'Vec_nD.cpp' != 'Vec_nD.cpp' and 'Release\' == 'Release\')。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“WarnCompileDuplicatedFilename”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets”中的目标“FixupCLCompileOptions”(目标“_ClCompile”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“FixupCLCompileOptions”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“MakeDirsForCl”(目标“_ClCompile”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“MakeDirsForCl”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“SetBuildDefaultEnvironmentVariables”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')的计算结果为('' != '' and '' != 'true')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“_SelectedFiles”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“_SelectedFiles”的操作。
+       已跳过目标“ComputeMIDLGeneratedCompileInputs”。以前的生成已成功。
+       已跳过目标“ComputeCLInputPDBName”。以前的生成已成功。
+       已跳过目标“ComputeReferenceCLInput”。以前的生成已成功。
+       已跳过目标“WarnCompileDuplicatedFilename”。以前的生成已成功。
+       已跳过目标“FixupCLCompileOptions”。以前的生成已成功。
+       已跳过目标“_SelectedFiles”。以前的生成已成功。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“SelectCustomBuild”(目标“SelectClCompile”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“SelectCustomBuild”的操作。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets”中的目标“SelectClCompile”(目标“ClCompile”依赖于它):
+     1>已完成在项目“MyIso.vcxproj”中生成目标“SelectClCompile”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateTargetFrameworkMonikerAttribute”；('$(GenerateTargetFrameworkAttribute)' == 'true')的计算结果为('false' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ManagedIncrementalBuildPreProcessDependencyGraph”；('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')的计算结果为('Jie_Ds.cpp;main.cpp;Vec_nD.cpp' != '' and 'false' == 'True')。
+     1>来自项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”的文件“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets”中的目标“ClCompile”(目标“_ClCompile”依赖于它):
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       由于 false 条件，已跳过任务“CL”；('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '')计算为('NotUsing' == 'Create' and ''!='true' and '' == '')。
+       正在使用程序集“C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Build.CppTasks.Common.dll”中的“CL”任务。
+       任务“CL”
+         Forcing recompile of all source files due to missing PDB "Release\vc140.pdb".
+         传递给工具的环境变量为:
+           VS_UNICODE_OUTPUT=1408
+         D:\vs2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Jie_Ds.cpp main.cpp Vec_nD.cpp
+         Tracking command:
+         C:\Program Files (x86)\MSBuild\14.0\bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\14.0\bin\FileTracker32.dll" /i G:\project_new\c++\Iso_Jie\MyIso\MyIso\Release\MyIso.tlog /r "G:\PROJECT_NEW\C++\ISO_JIE\MYISO\MYISO\JIE_DS.CPP|G:\PROJECT_NEW\C++\ISO_JIE\MYISO\MYISO\MAIN.CPP|G:\PROJECT_NEW\C++\ISO_JIE\MYISO\MYISO\VEC_ND.CPP" /b MSBuildConsole_CancelEvent277cd3ed22da4e929d7d25e3aadccd5f  /c D:\vs2015\VC\bin\CL.exe  /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Jie_Ds.cpp main.cpp Vec_nD.cpp
+         Jie_Ds.cpp
+     1>D:\vs2015\VC\atlmfc\include\afx.h(24): fatal error C1189: #error:  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         main.cpp
+     1>D:\vs2015\VC\atlmfc\include\afx.h(24): fatal error C1189: #error:  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         Vec_nD.cpp
+         命令已退出，代码为 2。
+       已完成执行任务“CL”的操作 - 失败。
+     1>已完成在项目“MyIso.vcxproj”中生成目标“ClCompile”的操作 - 失败。
+     1>已完成生成项目“G:\project_new\c++\Iso_Jie\MyIso\MyIso\MyIso.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.31
